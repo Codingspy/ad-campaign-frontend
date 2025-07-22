@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:5129/api', 
+  baseURL: 'https://adcampaignmvp-ayhtbcdxghfke7cd.canadacentral-01.azurewebsites.net/api', 
 });
 
 export default instance;
